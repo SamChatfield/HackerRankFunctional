@@ -6,7 +6,7 @@ let replace_abs lst =
 
 let rec read_lines () = 
     try let line = read_line () in
-        line :: read_lines()
+        line :: read_lines ()
     with
         End_of_file -> []
 
